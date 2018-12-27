@@ -3,8 +3,6 @@ import './FileZone.css';
 import Word from '../word/Word';
 
 class FileZone extends Component {
-    // elemRef = React.createRef();
-    // onMouseUp={event} ref={this.elemRef}
     render() {
         let { data, event, newState } = this.props;
         return (
